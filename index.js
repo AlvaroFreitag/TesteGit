@@ -14,24 +14,24 @@ return nome.toLowerCase() === nomeReverso.toLowerCase()? "É palindromo" : "Não
 console.log(palindromo());
 
 
-//  entrada = 15;
+ entrada = 15;
 
-// switch (true) {
-//     case (entrada % 3 === 0 && entrada % 5 === 0):
-//         console.log('fizzBuzz');
-//         break;
+switch (true) {
+    case (entrada % 3 === 0 && entrada % 5 === 0):
+        console.log('fizzBuzz');
+        break;
        
-//     case (entrada % 3 === 0):
-//         console.log('fizz');
-//         break;
+    case (entrada % 3 === 0):
+        console.log('fizz');
+        break;
        
-//     case (entrada % 5 === 0):
-//         console.log('buzz');
-//         break;
+    case (entrada % 5 === 0):
+        console.log('buzz');
+        break;
 
-//     default:
-//         console.log('usuario nao reconhecido');
-// }
+    default:
+        console.log('usuario nao reconhecido');
+}
 
 // let familia = [50,30,25,39];
 
