@@ -50,15 +50,15 @@ switch (true) {
 
 // const frutas = ['banana', 'maçã', 'laranja', 'banana', 'maçã', 'banana'];
 
-// const contagem = frutas.reduce((acumulador, fruta) => {
-//   if (!acumulador[fruta]) {
-//     acumulador[fruta] = 1;
-//   } else {
-//     acumulador[fruta]++;
-//   }
-//   return acumulador;
-// }, {});
+const contagem = frutas.reduce((acumulador, fruta) => {
+  if (!acumulador[fruta]) {
+    acumulador[fruta] = 1;
+  } else {
+    acumulador[fruta]++;
+  }
+  return acumulador;
+}, {});
 
-// console.log(contagem); 
+console.log(contagem); 
 // let array = [1, 2, 3, 4, 5];
 
